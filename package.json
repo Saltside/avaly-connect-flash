@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      "@avaly/connect-flash@1.0.0",
+      "/home/bhavya/Documents/saltside/web"
+    ]
+  ],
+  "_from": "@avaly/connect-flash@1.0.0",
+  "_id": "@avaly/connect-flash@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-FQYJ3gr7jHDI75N4k4c1OUNwBNg=",
+  "_location": "/@avaly/connect-flash",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@avaly/connect-flash@1.0.0",
+    "name": "@avaly/connect-flash",
+    "escapedName": "@avaly%2fconnect-flash",
+    "scope": "@avaly",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@avaly/connect-flash/-/connect-flash-1.0.0.tgz",
+  "_spec": "1.0.0",
+  "_where": "/home/bhavya/Documents/saltside/web",
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "bugs": {
+    "url": "http://github.com/avaly/connect-flash/issues"
+  },
+  "dependencies": {},
+  "description": "Flash message middleware for Connect.",
+  "devDependencies": {
+    "vows": "0.8.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "homepage": "https://github.com/avaly/connect-flash#readme",
+  "keywords": [
+    "connect",
+    "express",
+    "flash",
+    "messages"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "name": "@avaly/connect-flash",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/avaly/connect-flash.git"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "version": "1.0.0"
+}
